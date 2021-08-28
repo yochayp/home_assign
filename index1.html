@@ -1,0 +1,9 @@
+<?php
+
+$session_name = 'index1';
+session_name($session_name);
+session_start();
+
+$_SESSION['num'] = '1';
+
+require_once 'login.php';
